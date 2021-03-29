@@ -2,10 +2,10 @@ package articleCards.domain.TABLE_PER_CLASS;
 
 import javax.persistence.*;
 
-import static javax.persistence.InheritanceType.JOINED;
+import static javax.persistence.InheritanceType.TABLE_PER_CLASS;
 
 @Entity(name = "TpC_articleCard")
-@Inheritance(strategy = JOINED)
+@Inheritance(strategy = TABLE_PER_CLASS)
 public class ArticleCard extends Logger {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "TpC_articleCard")

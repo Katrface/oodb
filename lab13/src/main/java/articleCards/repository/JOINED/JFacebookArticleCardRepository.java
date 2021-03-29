@@ -1,6 +1,5 @@
 package articleCards.repository.JOINED;
 
-import articleCards.domain.JOINED.ArticleCard;
 import articleCards.domain.JOINED.FacebookArticleCard;
 import org.springframework.data.repository.CrudRepository;
 

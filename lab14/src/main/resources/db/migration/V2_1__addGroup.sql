@@ -1,0 +1,1 @@
+insert into groupcard (id, name) values (nextval('group_card_seq'), 'name2');
